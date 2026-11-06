@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-06T15:38:21Z",
+  "source_repo": "y1-community/r1-stock-rom",
+  "mirror_repo": "y1-community/r1-stock-rom-mirror",
+  "title_prefix": "Portable Flashing Package: ",
+  "updater_repo": "y1-community/updater-ce-neo",
+  "platforms": [
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux",
+      "os": "linux",
+      "arch": "x86-64",
+      "suffix": "-linux.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux-arm64",
+      "os": "linux",
+      "arch": "arm64",
+      "suffix": "-linux-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "macos",
+      "os": "macos",
+      "arch": "universal",
+      "suffix": "-macos.zip",
+      "layout": "beside_dmg"
+    }
+  ],
+  "releases": [
+    {
+      "tag": "R1_V1.48.20250425",
+      "title": "Portable Flashing Package: R1_V1.48.20250425",
+      "source_title": "R1_V1.48.20250425",
+      "source_url": "https://github.com/y1-community/r1-stock-rom/releases/tag/R1_V1.48.20250425",
+      "published_at": "2026-11-05T04:10:33Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis R1 software **R1_V1.48.20250425**.\n\n- Model: **R1** (Innioasis)\n- Package: `rom_r1.zip`\n- Build tag: `R1_V1.48.20250425`\n- Build date: 2025-04-25\n\n## Install\n\n1. Download `rom_r1.zip` (every numbered volume if the release has more than one, then `cat rom_r1.zip.* > rom_r1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_r1.zip` | 503.5 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=R1>",
+      "assets": [
+        {
+          "name": "rom_r1-windows.zip",
+          "source_asset": "rom_r1.zip",
+          "platform": "windows",
+          "model": "R1",
+          "type": "Stock",
+          "size": 800378913,
+          "sha256": "5defd8561213a054c9af96efc4ab6852d9e97df8a7244e78196553845359be4a",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows.zip"
+        },
+        {
+          "name": "rom_r1-linux.zip",
+          "source_asset": "rom_r1.zip",
+          "platform": "linux",
+          "model": "R1",
+          "type": "Stock",
+          "size": 916221985,
+          "sha256": "e4614ea94ac42da0561cd8c034e093eae581f87134c048a8f94adcbbf06007dd",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip"
+        },
+        {
+          "name": "rom_r1-macos.zip",
+          "source_asset": "rom_r1.zip",
+          "platform": "macos",
+          "model": "R1",
+          "type": "Stock",
+          "size": 773106418,
+          "sha256": "49455c2177ea71a01e7713c73665d2deb8fce8498cceefbeccbc037cd69b11b9",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_r1.zip",
+        "SHA256SUMS.R1_V1.48.20250425"
+      ],
+      "stats_url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/stats.txt"
+    }
+  ],
+  "source_readme": {
+    "path": "README.md",
+    "source_path": "README.md",
+    "source_name": "README.md",
+    "source_url": "https://github.com/y1-community/r1-stock-rom/blob/main/README.md",
+    "url": "https://raw.githubusercontent.com/y1-community/r1-stock-rom-mirror/main/README.md"
+  }
+}
