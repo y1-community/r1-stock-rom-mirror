@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T01:34:55Z",
+  "generated_at": "2026-11-11T22:22:23Z",
   "source_repo": "y1-community/r1-stock-rom",
+  "source_fallback_repo": "ryan-specter/r1-stock-rom",
   "mirror_repo": "y1-community/r1-stock-rom-mirror",
+  "mirror_fallback_repo": "ryan-specter/r1-stock-rom-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/r1-stock-rom-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -47,6 +50,14 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
@@ -61,6 +72,7 @@
       "title": "Portable Flashing Package: R1_V1.48.20250425",
       "source_title": "R1_V1.48.20250425",
       "source_url": "https://github.com/y1-community/r1-stock-rom/releases/tag/R1_V1.48.20250425",
+      "source_fallback_url": "https://github.com/ryan-specter/r1-stock-rom/releases/tag/R1_V1.48.20250425",
       "published_at": "2026-11-05T04:10:33Z",
       "prerelease": false,
       "source_notes": "Original Innioasis R1 software **R1_V1.48.20250425**.\n\n- Model: **R1** (Innioasis)\n- Package: `rom_r1.zip`\n- Build tag: `R1_V1.48.20250425`\n- Build date: 2025-04-25\n\n## Install\n\n1. Download `rom_r1.zip` (every numbered volume if the release has more than one, then `cat rom_r1.zip.* > rom_r1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_r1.zip` | 503.5 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=R1>",
@@ -72,8 +84,20 @@
           "model": "R1",
           "type": "Stock",
           "size": 763917639,
-          "sha256": "000d2c1354fffcdb6e8fa49784eb7c7596ff1a8e46b17913aafe34743e572ea3",
-          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows.zip"
+          "sha256": "c4a279003cae98d51faba6cc560ec14b399ba9837abff9f81366a54250532577",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows.zip"
+        },
+        {
+          "name": "rom_r1-windows-legacy.zip",
+          "source_asset": "rom_r1.zip",
+          "platform": "windows-legacy",
+          "model": "R1",
+          "type": "Stock",
+          "size": 602767222,
+          "sha256": "8f3e9417be6c17cae16bdd55b326224ee7f03cd013709cf3db4fdaf68e293498",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows-legacy.zip"
         },
         {
           "name": "rom_r1-linux.zip",
@@ -82,8 +106,9 @@
           "model": "R1",
           "type": "Stock",
           "size": 887789155,
-          "sha256": "ed0efe278193c4bbaf0c32816a9bbc1bc1dc0dd3af157b7966b539051311ec2e",
-          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip"
+          "sha256": "f5f8db1220f3c0e9875633db83af130f5e6c87e5e4e8ce1f6ef4d4722186c799",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip"
         },
         {
           "name": "rom_r1-linux-arm64.zip",
@@ -92,8 +117,20 @@
           "model": "R1",
           "type": "Stock",
           "size": 712694097,
-          "sha256": "65ef37929a7770fd3c14fa3e45ecf5823ae2e90fea43e433676353360417da93",
-          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-arm64.zip"
+          "sha256": "02019b38eaaaa6bc32facf43051f53405f2cfcf2aeee0757a66bb1d98a9503bf",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_r1-linux-legacy.zip",
+          "source_asset": "rom_r1.zip",
+          "platform": "linux-legacy",
+          "model": "R1",
+          "type": "Stock",
+          "size": 601181509,
+          "sha256": "0af78e587880d0f9d5ca43da9bcf7046d8d2002a515ae919d97563c4fccb8b21",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-legacy.zip"
         },
         {
           "name": "rom_r1-macos.zip",
@@ -102,8 +139,9 @@
           "model": "R1",
           "type": "Stock",
           "size": 647639956,
-          "sha256": "61dced59a13367110da1002bbb70cff08a86865f646da0c4a373e3fff6c5109c",
-          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip"
+          "sha256": "97f579edccbe15955f51b88f10881d70f277f39098369f8bf0ab4ff0533fc56f",
+          "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip"
         }
       ],
       "original_assets": [
