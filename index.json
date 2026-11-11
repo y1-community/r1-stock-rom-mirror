@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T00:36:20Z",
+  "generated_at": "2026-11-11T01:34:55Z",
   "source_repo": "y1-community/r1-stock-rom",
   "mirror_repo": "y1-community/r1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -71,8 +71,8 @@
           "platform": "windows",
           "model": "R1",
           "type": "Stock",
-          "size": 733668801,
-          "sha256": "ae2c963f688896ff0d060de61d0c76f63e1766e33fea76f92df7ec2ee98553ed",
+          "size": 763917639,
+          "sha256": "000d2c1354fffcdb6e8fa49784eb7c7596ff1a8e46b17913aafe34743e572ea3",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-windows.zip"
         },
         {
@@ -82,7 +82,7 @@
           "model": "R1",
           "type": "Stock",
           "size": 887789155,
-          "sha256": "2c8cbdaa4f38501bcebd8bbd2b64becec513ed631b78eba9cfdd864ce228bcd7",
+          "sha256": "ed0efe278193c4bbaf0c32816a9bbc1bc1dc0dd3af157b7966b539051311ec2e",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip"
         },
         {
@@ -92,7 +92,7 @@
           "model": "R1",
           "type": "Stock",
           "size": 712694097,
-          "sha256": "5a5e857ddb12f8e69185557f0f43bf7be224614e7dd0ee2fa9f80bf71fd0f465",
+          "sha256": "65ef37929a7770fd3c14fa3e45ecf5823ae2e90fea43e433676353360417da93",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-arm64.zip"
         },
         {
@@ -102,7 +102,7 @@
           "model": "R1",
           "type": "Stock",
           "size": 647639956,
-          "sha256": "1dcec2dd38d54ac04ff291f6b1edf824362bff05435308f7f84d8cbf2c223d0d",
+          "sha256": "61dced59a13367110da1002bbb70cff08a86865f646da0c4a373e3fff6c5109c",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip"
         }
       ],
