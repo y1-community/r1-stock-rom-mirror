@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T22:25:52Z",
+  "generated_at": "2026-11-21T11:48:59Z",
   "source_repo": "y1-community/r1-stock-rom",
   "source_fallback_repo": "ryan-specter/r1-stock-rom",
   "mirror_repo": "y1-community/r1-stock-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "R1",
           "type": "Stock",
-          "size": 829390083,
-          "sha256": "0c2746d3c9d41377dab68a87be0c78f5d31999838d5771f1d0c4aaa29db9a2b0",
+          "size": 829438851,
+          "sha256": "fb2fe3bd7ff504b714cd59f1cde53a0bca8f03e88bcda3ba1758e56566343428",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "R1",
           "type": "Stock",
-          "size": 654295641,
-          "sha256": "4ffb7e9e3fe3355b37b4a2fb139ccc3f5db605324bd6b1c437b808788414fd82",
+          "size": 654345572,
+          "sha256": "05803d98ff48ca4fcb2afb687cedb3603314640fd06de77258e6557393f268af",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "R1",
           "type": "Stock",
-          "size": 637213248,
-          "sha256": "620daeac1eefc73ebef9f28e7146c88f18013358c0f9a6a3411c4a16534427b4",
+          "size": 637167390,
+          "sha256": "c9fe8e0082cfbb2a08e93a85b8c0279aec58be0a01412fab645f590bf8ddbd8a",
           "url": "https://github.com/y1-community/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/r1-stock-rom-mirror/releases/download/R1_V1.48.20250425/rom_r1-macos.zip"
         }
